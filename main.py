@@ -31,7 +31,7 @@ def discover_bt():
 def send_command(command):
     try:
         sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
-        print(esp32_address)
+        print('Sending command to: '+esp32_address)
         sock.connect((esp32_address, 1))
         sock.send(command)
         sock.close()
@@ -56,7 +56,7 @@ def on_select(event):
             result = match.group(1)  # Get the content between parentheses
             global esp32_address  # Update the global variable
             esp32_address=result
-            print("Result:", result)
+            print("Address:", result)
         else:
             print("No match found.")
 
