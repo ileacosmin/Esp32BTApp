@@ -17,18 +17,23 @@ This project is a Python application for controlling devices via Bluetooth. It p
 
 ## Usage
 
-1. Run the Python script `bluetooth_control_app.py`.
+1. Run the Python script `main.py`.
 2. Click on the "Discover Devices" button to find nearby Bluetooth devices.
 3. Select the desired device from the list.
 4. Use the "Turn On LED" and "Turn Off LED" buttons to send commands to control the device.
+
+## Uploading Script to the Board
+
+Before using the Bluetooth Control App, you need to upload the provided script (`Esp32BTApp.ino`) to your ESP32 board. This script enables the ESP32 to receive commands from the Bluetooth Control App and control the luminosity of the LED connected to the board.
+
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   $ git clone https://github.com/your_username/bluetooth_control_app.git
-   $ cd bluetooth_control_app
+   $ git clone https://github.com/pierpatrat/Esp32BTApp.git
+   $ cd Esp32BTApp
 
 2. Install the required libraries
   
