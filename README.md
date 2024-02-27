@@ -1,6 +1,7 @@
 # Bluetooth Control App
 
 This project is a Python application for controlling devices via Bluetooth. It provides a graphical user interface (GUI) for discovering nearby Bluetooth devices and sending commands to them. The app is designed to control the luminosity of an LED connected to a pin on the board using the GUI. Additionally, it serves as a proof of concept for the simple implementation of using an ESP32 microcontroller.
+
 ## Features
 
 - Discover nearby Bluetooth devices
