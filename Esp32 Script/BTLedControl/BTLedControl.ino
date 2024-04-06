@@ -17,7 +17,7 @@ void loop(){
       digitalWrite(ledPin,HIGH);
     }else if(c=='0')
     {
-      digitalWrite(ledPin,LOW);
+      digitalWrite(ledPin,0);
     }
   }
 
